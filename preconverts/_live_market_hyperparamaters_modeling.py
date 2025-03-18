@@ -210,21 +210,3 @@ for i, etf in enumerate(etfs):
     axes[i].set_ylabel("Frequency")
 plt.tight_layout()
 plt.show()
-
-# %% [markdown]
-# ## 7. Discussion & Interpretation
-# 
-# In the printed summary table and histograms above you can compare the key metrics:
-# 
-# - **Skewness:** A higher (positive) skew indicates a longer right tail.  
-# - **Kurtosis:** High kurtosis indicates more extreme outliers.
-# - **Probability (>=2x):** A higher probability of the price doubling suggests a fatter right tail.
-# 
-# Based on our simulation, you may observe that ETFs such as **ARKK** (and possibly **SMH**) exhibit a fatter right tail. These funds have been parameterized with higher drifts, volatilities, and a jump component to reflect aggressive, disruptive technology themes and higher speculative upside in the current political and economic climate.
-# 
-# Use these results in your analysis to justify your choice. For example, if ARKK shows the highest probability of doubling and the highest skewness, you might conclude that ARKK has the “fattest right tail” (i.e. the greatest potential for extreme positive returns) for the rest of 2025.
-# 
-# **Note:** These parameter choices reflect our current outlook (with influences from industry forecasts, recent news on semiconductor and AI growth, and political signals) and can be adjusted as more information becomes available.
-
-# %% [markdown]
-# ## End of Notebook

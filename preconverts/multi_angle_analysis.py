@@ -173,24 +173,3 @@ for i, etf in enumerate(etfs):
     axes[i].set_title(f"QQ Plot for {etf}")
 plt.tight_layout()
 plt.show()
-
-# %% [markdown]
-# ## Summary & Next Steps
-# 
-# In this notebook, we:
-# 
-# - Downloaded historical data and computed daily log returns.
-# - Calculated risk metrics (mean, volatility, skewness, kurtosis, VaR).
-# - Visualized the price history, return distributions, QQ plots, and correlation heatmap.
-# - Ran Monte Carlo simulations to project one-year future price paths and analyzed the simulated final price distributions.
-# 
-# In the context of the interview question, you can now compare the ETFs based on:
-# 
-# - **Historical skewness and kurtosis:** Indicating how "fat" the right tail is.
-# - **Simulation results:** Especially the skewness of the final price distributions.
-# - **Sector trends and economic outlook:** (e.g., tech/innovation ETFs like ARKK or semiconductor ETFs like SMH might show a stronger right tail if growth prospects are robust.)
-# 
-# You can incorporate additional analyses, such as using options-implied volatility or stress testing via Extreme Value Theory, to further strengthen your argument.
-# 
-# Good luck with your interview!
-
